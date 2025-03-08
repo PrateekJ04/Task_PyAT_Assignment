@@ -24,7 +24,7 @@
 
 step1:- Copy all Code to your system
 
-step2:- Go to Commandline and type command "cd <your path to project>" and hit enter
+step2:- Go to Commandline and type command "cd [your path to project]" and hit enter
 
 step3:- Then type command "pip install -r requirements.txt" and hit enter
 
@@ -32,7 +32,7 @@ step4:- Once all the neccessary installations done , Go to utilities and add you
 
 step5:- Go to commandline and type command "pytest" and hit enter
         Note:-  To run parallel tests use command [pytest -n <no. of parallel testcases>] or To run testcases according to markers
-        use command[pytest -m "<name of the marker>"]
+        use command[pytest -m "[name of the marker]"]
 
 step6:- After successful execution to generate report type command "allure serve allure-results" 
         [*allure commandline must be present on system]
